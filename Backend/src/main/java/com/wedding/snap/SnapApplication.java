@@ -8,6 +8,7 @@ public class SnapApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(SnapApplication.class, args);
+		System.out.print("hello");
 	}
 
 }
