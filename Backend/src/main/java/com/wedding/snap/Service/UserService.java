@@ -13,7 +13,8 @@ public class UserService {
         this.userRepository = userRepository;
     }
 
-    public User createUser(User newUser){
-        return userRepository.save(newUser);
+    public void createUser(User newUser){
+//        return userRepository.save(newUser);
+        System.out.println(newUser.getName());
     }
 }
